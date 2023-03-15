@@ -1,0 +1,27 @@
+2023-03-14T22:53:31.958  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-14T22:53:31.958  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-14T22:53:31.962  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-14T22:53:31.962  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-14T22:53:32.250  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 601.44ms
+2023-03-14T22:53:43.081  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:53:43.096  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:53:43.100  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:53:43.103  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:55:00.494  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.PutParameter => 200
+2023-03-14T22:55:08.099  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:55:08.117  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:55:08.122  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-14T22:55:08.125  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-15T00:03:08.848  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.PutParameter => 400 (ParameterAlreadyExists)
+2023-03-15T00:03:11.629  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS secretsmanager.CreateSecret => 200
+2023-03-15T00:03:14.258  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS secretsmanager.CreateSecret => 200
+2023-03-15T00:03:16.889  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS secretsmanager.CreateSecret => 200
+2023-03-15T00:03:19.536  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS secretsmanager.CreateSecret => 200
+2023-03-15T00:05:34.566  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-15T00:05:34.580  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-15T00:05:34.584  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-15T00:05:34.587  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-03-15T00:05:34.603  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS secretsmanager.GetSecretValue => 200
+2023-03-15T00:05:34.609  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS secretsmanager.GetSecretValue => 200
+2023-03-15T00:05:34.613  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS secretsmanager.GetSecretValue => 200
+2023-03-15T00:05:34.617  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS secretsmanager.GetSecretValue => 200
